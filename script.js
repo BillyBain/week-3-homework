@@ -22,11 +22,7 @@ function generatePassword() {
 
   let length = window.prompt("Enter desired length:");
   if (length < 8) {
-<<<<<<< HEAD
     return "Needs to be minimum 8 characters.";
-=======
-    return "Needs to be minimum 8 characters.git add ";
->>>>>>> f7162e4b763ba55b71a7c29ccf64d3f60cb2cd92
   } else if (length > 128){
     return "Needs to be less than 128 characters."
   }

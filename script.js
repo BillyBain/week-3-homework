@@ -21,12 +21,11 @@ function generatePassword() {
   const nq = number.concat(unique)
 
   let length = window.prompt("Enter desired length:");
-  if (length < 8, length >128) {
-    return "Needs to be minimum 8 characters and no longer then 128 characters.";
+  if (length < 8) {
+    return "Needs to be minimum 8 characters.git add ";
+  } else if (length > 128){
+    return "Needs to be less than 128 characters."
   }
-  
-  const ran = function() {}
-
   const upperT = window.confirm("Would you like Upper case letters?")
   const lowerT = window.confirm("would you like Lower case letters?")
   const numberT = window.confirm("Would you like Numbers?")
